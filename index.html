@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek Gery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+
+
+<script src="https://kit.fontawesome.com/85d380a04b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" >
+        <div class="container">
+            <nav class="navbar ">
+                <!-- <img src="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="name">Dev</span>eloper</p>
+                <h1>Hi, I'm <span>Abishek </span> <br>Gery</h1>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abishek-gery/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/the_jerician?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Abishek74"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                       
+                        Hello, I'm Abishek Gery, student 
+                        pursuing a Bachelor of Technology (B.Tech) in Computer Science and 
+                        Engineering in Ernakulam, Kerala. With a strong passion for technology 
+                        and a relentless desire to learn and innovate,
+                        I'm always open to new opportunities and challenges  to connect or work together with people on exciting projects.
+                    </p><br>
+                        Name: Abishek Gery <br>
+                        Location: Ernakulam, Kerala <br>
+                        Education: B.Tech in Computer Science & Engineering* <br>
+                       
+
+                    
+        </div>
+        </div>
+    </div>
+    
+<!-- Resume -->
+
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-title r">Resume</h1>
+        <h3 class="sub-sub-title">Objective</h3>
+        <p class="sub-sub-content">Seeking an postion in a reputed organization to apply my skills and knowledge. I would like to develop my skills and
+            knowledge through challenging situations and contribute to the growth of the company.Looking areas of work where I can
+            use my complete knowledge and skills.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('interships')">Interships</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>Programming Languages</span><br> C, C++, Python, JAVA, HTML, CSS, Javascript</li>
+                <li><span>Frameworks</span><br>React, Django</li>
+                
+            </ul>
+        </div>
+       
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>KMRL Website</span><br> Front-End development for Kochi Metro Rail Limited (KMRL) Website</li>
+                <li><span> Railway Reservation System</span><br>  A Python GUI application integrated with SQL database</li>
+                
+            </ul>
+        </div>
+        
+        <div class="tab-contents" id="interships">
+            <ul>
+                <li><span>Web Development</span><br>Kochi Metro Rail Limited <br>Technology : React </li>
+                <li><span>Web Development</span><br> Kerala State Electronics Development Corporation Limited</li>
+                <li><span> App Development</span><br>Consolidated Techware <br>Technology : Swift</li>
+                
+            </ul>
+        </div>
+        
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>B-TECH - COMPUTER SCIENCE AND ENGINEERING</span><br>Federal Institute of Science And Technology</li>
+                <li><span>PLUS TWO-COMPUTER SCIENCE</span><br>Brahmanandodayam Higher Secondary School, Kalady</li>
+                <li><span>CLASS X</span><br>Vidyadhiraja Vidyabhavan Senior Secondary School, Mekkad</li>
+                
+            </ul>
+        </div>
+        <a href="images/AbishekGery_resume.pdf" download class="btn btn2">Download Resume</a>
+    </div>
+    </div>
+</div>
+
+
+
+
+<!-- services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title s">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Dev</h2>
+                <p>I specialise in designing and developing <br>
+                     wesites that are visually appealing and user-friendly.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Dev</h2>
+                <p>I develop apps that are compatible with both android and ios.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------------Portfolio------------------------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img class="img1" src="images/train.jpg">
+                <div class="layer">
+                    <h3>Railway Reservation System</h3>
+                    <p style="color: aliceblue;">A Python GUI application integrated with SQL database.</p>
+                    <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="img2" src="images/remedi.jpg">
+                <div class="layer">
+                    <h3>Medication Reminder App</h3>
+                    <p style="color: aliceblue;">An application to keep track of medical adherence.</p>
+                    <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -----------------------------------------contact----------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row c">
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><a href="mailto:abishekgery@gmail.com"><i class="fa-solid fa-envelope"></i></a>abishekgery@gmail.com</p>
+                
+                <p><a href="tel:+919188385810"><i class="fa-solid fa-phone"></a></i>+91-9188385810</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abishek-gery/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/the_jerician?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Abishek74"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 s">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abishek Gery</p>        
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzwkpmfBGWVVdrwPowuv8MtaUOeXdYy6skL_-_yN0_GqgabEvWe33I8IO3RQgUA0JVYOw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
