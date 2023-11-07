@@ -371,6 +371,7 @@ form .btn2{
     font-size: 15px;
     margin-top: 20px;
     cursor: pointer;
+    border: none;
 }
 .copyright{
     width: 100%;
@@ -536,7 +537,7 @@ nav .fas{
         padding: 30px 0;
     }
     .btn.btn2,s{
-        width: 80px;
+        width: 145px;
         height: 35px;
         padding: 10px 20px;
         font-size: 12px;
